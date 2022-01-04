@@ -15,7 +15,7 @@
    26,
    false,
    "December 5, 2018 15:00:00 PST",
-   "../assets/images/everyday.svg"
+   "backpack.jpg"
  );
  
  const main = document.querySelector(".maincontent");
@@ -23,7 +23,7 @@
  const content = `
    <article class="backpack" id="everyday">
      <figure class="backpack__image">
-       <img src=${everydayPack.image} alt="" />
+       <img src=${everydayPack.image} alt="" width = "500" height = "630"/>
      </figure>
      <h1 class="backpack__name">${everydayPack.name}</h1>
      <ul class="backpack__features">
