@@ -11,3 +11,9 @@ document.getElementsByClassName("packprop")
 document.getElementsByClassName("packprop backpack__volume")
 document.getElementById("everyday")
 
+//Modify element classes
+document.querySelector("h1").className
+document.querySelector("main li:first-child").classList
+document.querySelector("main li:first-child").classList.add("new-class")
+document.querySelector("main li:first-child").classList.remove("new-class")
+document.querySelector("main li:first-child").classList.replace("packprop","new-class")
