@@ -1,0 +1,13 @@
+
+//Access document using querySelector
+document.querySelector(".maincontent")
+document.querySelectorAll("main li")
+document.querySelector("main li:last-child")
+document.querySelectorAll("main li:last-child").forEach(item=>item.style.backgroundColor="pink")
+document.querySelectorAll("main li").forEach(item=>item.style.backgroundColor="grey")
+
+//Access document using element
+document.getElementsByClassName("packprop")
+document.getElementsByClassName("packprop backpack__volume")
+document.getElementById("everyday")
+
