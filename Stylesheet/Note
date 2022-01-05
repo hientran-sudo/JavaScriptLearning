@@ -17,3 +17,11 @@ document.querySelector("main li:first-child").classList
 document.querySelector("main li:first-child").classList.add("new-class")
 document.querySelector("main li:first-child").classList.remove("new-class")
 document.querySelector("main li:first-child").classList.replace("packprop","new-class")
+
+//Attributes
+document.querySelector("img").attributes
+document.querySelector("img").hasAttribute("src")
+//return true
+document.querySelector("img").getAttribute("src")
+//return 'backpack.jpg'
+document.querySelector("img").setAttribute("alt","a picture of a backpack")
