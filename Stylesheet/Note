@@ -25,3 +25,8 @@ document.querySelector("img").hasAttribute("src")
 document.querySelector("img").getAttribute("src")
 //return 'backpack.jpg'
 document.querySelector("img").setAttribute("alt","a picture of a backpack")
+
+//Style
+document.querySelector(".site-title").style
+document.querySelector(".site-title").style.color = "purple" //change color of site-title to purple
+document.querySelector(".site-title").style.backgroundColor="pink"
